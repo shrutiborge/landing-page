@@ -1,0 +1,127 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section{
+  width: 100%;
+  min-height: 100vh;
+  background: url(bgg.jpg);
+  background-size: cover;
+}
+
+.cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.cards .products{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.cards .products h1{
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.cards .products h1::after{
+  content: "";
+  height: 5px;
+  width: 325px;
+  background-color: #fff;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 2px 4px rgb(0, 0,0,25%);
+  width: 325px;
+  text-align: center;
+  margin: 25px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.image-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img{
+  width: 100%;
+  height: auto;
+}
+
+.description{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.description h1{
+  font-size: 20px;
+  color: #222;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+.description p{
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+}
+
+.description span{
+  margin-left: 8px;
+}
+.description del{
+  margin-left: 7px;
+  font-size: 15px;
+  color: #ef6b97;
+}
+.button-group{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.button-group .buy{
+  background-color: #1976d2;
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.button-group .buy:hover{
+  background-color: #0b348d;
+  transition: 0.6s ease;
+}
+
+.button-group .cart{
+  background-color: #c50c4a;
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.button-group .cart:hover{
+  background-color: #960636;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
